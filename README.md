@@ -8,7 +8,7 @@ This toolchain is built on Debian GNU/Linux 12 (bookworm), which uses glibc 2.36
 
 ## Download latest built
 
-* <a href=https://github.com/SkiddieKernel/Clang/releases/download/202312262153/skiddie-clang-18.0.0-aca3727-202312262153.tar.zst>skiddie-clang-18.0.0-aca3727-202312262153.tar.zst</a>
+* <a href=https://github.com/SkiddieKernel/Clang/releases/download/202312292211/skiddie-clang-18.0.0-b6daac0-202312292211.tar.zst>skiddie-clang-18.0.0-b6daac0-202312292211.tar.zst</a>
 ## Building Linux Kernel
 
 This is how you start initializing the SKiddie Clang to your server, use a command like this:
@@ -21,7 +21,7 @@ mkdir -p ~/toolchains/skiddie-clang
 Then download latest built:
 
 ```bash
-wget -c https://github.com/SkiddieKernel/Clang/releases/download/202312262153/skiddie-clang-18.0.0-aca3727-202312262153.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/skiddie-clang
+wget -c https://github.com/SkiddieKernel/Clang/releases/download/202312292211/skiddie-clang-18.0.0-b6daac0-202312292211.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/skiddie-clang
 
 ```
 
