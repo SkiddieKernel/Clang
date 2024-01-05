@@ -1,5 +1,5 @@
 # Version Info
-* Build Date : 29 December 2023
-* Toolchains : llvm clang-18.0.0-b6daac0 Compiler-rt LLD PGO Polly LTO thin
+* Build Date : 06 January 2024
+* Toolchains : llvm clang-18.0.0-7c3bcc3 Compiler-rt LLD PGO Polly LTO thin
 * Targets : ARM AArch64 X86
-* Upstream : https://github.com/llvm/llvm-project/commit/b6daac0
+* Upstream : https://github.com/llvm/llvm-project/commit/7c3bcc3
